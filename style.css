@@ -1,0 +1,126 @@
+html {
+	background-image:url(images/symphony.png);
+	background-repeat:repeat;
+	background-attachment:fixed;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family:'Open Sans', Arial,sans-serif;	
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+}
+h1 {
+	font-size:36px;
+}
+h2 {
+	font-size:30px;
+}
+h3 {
+	font-size:28px;
+}
+h4 {
+font-size:24px;	
+}
+h5 {
+	font-size:20px;
+}
+h6 {
+	font-size:16px;
+}
+#wrapper {
+	background-color:#FFFFFF;
+	margin:30px auto;
+	padding:15px;
+	width:960px;
+	box-shadow:0 6px 12px rgba(0,0,0,0.4);
+	
+}
+#header {
+	background-color:#C51417;
+	overflow:hidden;
+	padding:10px;
+	margin-bottom:10px;
+}
+#logo {
+	float:left;
+}
+#slogan {
+	float:right;
+	color:#FFFFFF;
+	font-size:22px;
+	font-style:italic;
+}
+#nav {
+	height:40px;
+	background-color:#333333;
+	
+}
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#nav ul li {
+	float:left;
+	
+}
+#nav ul li a {
+	padding:10px 12px;
+	height:20px;
+	display:block;
+}
+#nav ul li a:link, 
+#nav ul li a:visited {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#nav ul li a:hover {
+	color:#EEEEEE;
+	background-color:#C51417;
+}
+#nav ul li a:active {
+	
+}
+.social {
+	float:right;
+	font-size:24px;
+	margin:0 10px;
+}
+.social a:link,
+.social a:visited {
+	color:#FFFFFF
+}
+.social a:hover {
+	color:#C51417;
+}
+.social a:active {
+	color:#555555;
+}
+#main {
+	float:left;
+	width:700px;
+	margin-bottom:15px;
+}
+#sidebar {
+	float:right;
+	width:240px;
+	margin-bottom:15px;
+}
+#sidebar h2{
+	background-color:#BBBBBB;
+	color:#FFFFFF;
+	padding:4px;
+}
+#footer {
+	clear:both;
+	background-color:#333333;
+	padding:10px;
+	text-align:center;
+	font-size:12px;
+	color:#777777;
+}
+#footer p {
+	margin:0;
+}
